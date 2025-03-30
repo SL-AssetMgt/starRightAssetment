@@ -1,0 +1,241 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url('hero-bg.jpg'); /* 背景画像を設定 */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .about, .properties {
+    padding: 50px 0;
+  }
+  
+  .property-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .property-item {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .property-item img {
+    width: 100%;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .main {
+    padding: 50px 0;
+  }
+  
+  .company-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-profile img {
+    width: 45%;
+    margin-right: 40px;
+  }
+  
+  .profile-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .profile-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
+  .investment-summary {
+    padding: 50px 0;
+  }
+  
+  .investment-section {
+    margin-bottom: 30px;
+  }
+  
+  .investment-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .investment-section ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .investment-section li {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .investment-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
+  /* 他のCSSは省略 */
+
+.company-info {
+  padding: 50px 0;
+}
+
+.company-info h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.company-info dl {
+  display: grid;
+  grid-template-columns: 150px auto;
+  gap: 15px 20px;
+  margin-bottom: 30px;
+}
+
+.company-info dt {
+  font-weight: bold;
+  text-align: right;
+}
+
+.company-info dd {
+  margin: 0;
+}
+
+.company-info dd ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.company-info dd li {
+  line-height: 1.6;
+}
+
+.contact-form {
+  padding: 50px 0;
+}
+
+.contact-form h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-form p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-form form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.form-group textarea {
+  resize: vertical; /* 縦方向のリサイズを許可 */
+}
+
+.contact-form button.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button.btn:hover {
+  background-color: #0056b3;
+}
